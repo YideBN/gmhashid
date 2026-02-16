@@ -1,4 +1,4 @@
-⁉ Сменить язык на [Английский]([https://github.com/OpenImageDenoise/oidn/releases/download/v1.4.3/oidn-1.4.3.x64.vc14.windows.zip](https://github.com/YideBN/gmhashid/blob/main/README.md))
+⁉ Сменить язык на [Английский](https://github.com/YideBN/gmhashid/blob/main/README.md)
 # 🎫 Простой HashID Модуль & Аддоны
 
 Модуль добавляет клиентскую lua функцию GetHashID(), которая возвращает HWID компьютера, зашифрованный с помощью SHA256.
