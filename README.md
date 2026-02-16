@@ -37,6 +37,6 @@ HashID addons can be downloaded from the releases section and their code can be 
 You should install everything that is required!  
 To build, you'll need:
 -   WSL
--   CMake (in both bash and Windows)
+-   CMake (in both Windows terminal and WSL Bash)
 -   Ninja
 -   etc.
