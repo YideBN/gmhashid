@@ -50,7 +50,6 @@ body {
     <div id="content" class="markdown-body">Loading...</div>
     <script>
     async function readme(file='README.md') {
-      try{
         const url = 'https://raw.githubusercontent.com/YideBN/'+window.location.pathname.replace(/^\/|\/$/g, '')+'/main/'+file;
         const response = await fetch(url);
         document.getElementById('content').innerHTML = marked.parse(await response.text());
@@ -70,5 +69,3 @@ body {
 </body>
 
 </html>
-
-
