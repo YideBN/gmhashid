@@ -17,6 +17,7 @@
   background-color: #04AA6D;
   border: 2px solid #04AA6D;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button:hover {
@@ -57,16 +58,17 @@ body {
           a.onclick = (e) => {
             e.preventDefault();
             const href = a.getAttribute('href');
-            if (href.endsWith('.md')) loadReadme(href.split('/').pop());
+            if (href.endsWith('.md')) readme(href.split('/').pop());
             else if (href.startsWith('http')) window.open(href, '_blank');
           };
         });
     }
-    document.addEventListener('DOMContentLoaded', () => loadReadme('README.md'));
+    document.addEventListener('DOMContentLoaded', () => readme('README.md'));
     </script>
     
     <button class="button" onclick="window.location.href='https://github.com/YideBN/'+window.location.pathname.replace(/^\/|\/$/g, '')+'/releases'">Download</button>
 </body>
 
 </html>
+
 
