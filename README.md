@@ -36,7 +36,6 @@ HashID addons can be downloaded from the releases section and their code can be 
 **CompileHelpers does not install everything you need for build!**  
 You should install everything that is required!  
 To build, you'll need:
-
 -   WSL
 -   CMake (in both bash and Windows)
 -   Ninja
