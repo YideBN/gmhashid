@@ -1,4 +1,5 @@
-# Simple HashID Module & Addons 🎫
+⁉ Change language to [Russian]([https://github.com/OpenImageDenoise/oidn/releases/download/v1.4.3/oidn-1.4.3.x64.vc14.windows.zip](https://github.com/YideBN/gmhashid/blob/main/README_RU.md))
+# 🎫 Simple HashID Module & Addons 
 
 The module adds a client lua function GetHashID() that returns the computer's HWID encrypted in SHA256.
 
@@ -22,3 +23,10 @@ banhashid *nickname* – Bans a player by their HashID with a specified reason a
 unbanhashid *hashid* – Unbans a player by their HashID. Requires admin privileges.
 hashidwrite – Overwrites hashidbanlist.txt. Requires superadmin privileges.
 hashidreload – Reloads the "banned" table. Requires superadmin privileges.
+
+# 🔧 Installing
+## 📻 Client
+The HashID module can be compiled from source code or downloaded from the releases section. It should be downloaded by the client if they want to connect to the server properly. It is installed in the garrysmod/lua/bin folder.
+
+## 🗃 Server
+HashID addons can be downloaded from the releases section and their code can be edited. They should be downloaded by the server to work with HashID. They are installed in the garrysmod/addons folder.
