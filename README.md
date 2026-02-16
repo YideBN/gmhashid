@@ -1,4 +1,4 @@
-⁉ Change language to [Russian](https://github.com/YideBN/gmhashid/blob/main/README_RU.md)
+⁉ Change language to [Russian](README_RU.md)
 # 🎫 Simple HashID Module & Addons 
 
 The module adds a client lua function GetHashID() that returns the computer's HWID encrypted in SHA256.
