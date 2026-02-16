@@ -37,6 +37,6 @@ HashID аддоны можно загрузить из раздела релиз
 Вы должны установить всё, что требуется!  
 Для сборки вам понадобятся:
 -   WSL
--   CMake (in both bash and Windows)
+-   CMake (и в терминале Windows, и в WSL Bash)
 -   Ninja
 -   etc.
