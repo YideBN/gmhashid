@@ -31,3 +31,13 @@ The HashID module can be compiled from source code or downloaded from the releas
 
 ## 🗃 Server
 HashID addons can be downloaded from the releases section and their code can be edited. They should be downloaded by the server to work with HashID. They are installed in the garrysmod/addons folder.
+
+# 📟 Building(For Windows)
+**CompileHelpers does not install everything you need for build!**  
+You should install everything that is required!  
+To build, you'll need:
+
+-   WSL
+-   CMake (in both bash and Windows)
+-   Ninja
+-   etc.
