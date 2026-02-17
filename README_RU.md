@@ -39,4 +39,4 @@ HashID аддоны можно загрузить из раздела релиз
 -   WSL
 -   CMake (и в терминале Windows, и в WSL Bash)
 -   Ninja
--   etc.
+-   и т.д.
